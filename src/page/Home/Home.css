@@ -1,0 +1,59 @@
+body {
+  background-color: #4E8CEA !important;
+}
+
+.hero-section {
+  background-image: url('../../assets/MacBook.png');
+  padding: 100px 0px 40px 80px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  margin-top: -80px;
+  z-index: -1;
+  position: relative;
+}
+
+.stats-bar {
+  background-color: #4E8CEA;
+  border-radius: 60px;
+}
+
+
+
+/* .books-section{
+background:#f5e8e6;
+} */
+
+.book-card{
+background:white;
+padding:15px;
+transition:0.3s;
+}
+
+.book-img-wrapper{
+position:relative;
+overflow:hidden;
+}
+
+.book-img{
+height:300px;
+object-fit:cover;
+}
+
+.add-cart-btn{
+position:absolute;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+background:#ff4d4d;
+border:none;
+color:white;
+padding:10px 20px;
+font-size:12px;
+font-weight:600;
+opacity:0;
+transition:0.3s;
+}
+
+.book-card:hover .add-cart-btn{
+opacity:1;
+}
