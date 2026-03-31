@@ -51,3 +51,43 @@ nav.navbar .navbar-pill .nav-item-custom.active-link::after {
   border-radius: 10px;
 }
 
+.avatar {
+  width: 35px;
+  height: 35px;
+  border: 2px solid white;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* DROPDOWN */
+.dropdown-menu-custom {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  padding: 10px 0;
+  min-width: 150px;
+  z-index: 999;
+}
+
+/* ITEM */
+.dropdown-item {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.dropdown-item:hover {
+  background: #f5f5f5;
+}
+
+/* LOGOUT */
+.logout {
+  color: red;
+}

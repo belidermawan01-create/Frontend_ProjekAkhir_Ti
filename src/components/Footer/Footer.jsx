@@ -7,7 +7,6 @@ const Footer = () => {
     <footer className='bg-primary text-white py-4 mt-5'>
       <Container>
         <Row className='text-center text-md-start'>
-            {/**kolom1: logo dan deskripsi */}
             <Col md={4}>
             <h5>PeTIKBook</h5>
             <p>
@@ -15,7 +14,6 @@ const Footer = () => {
             </p>
             </Col>
 
-            {/**kolom 2: Navigasii */}
             <Col md={4}>
             <h5 className='fw-bold'>Quick Link</h5>
             <ul className='list-unstyled'>
@@ -31,7 +29,6 @@ const Footer = () => {
             </ul>
             </Col>
 
-            {/**kolom 3: Kontak */}
             <Col md={4}>
             <h5>Kontak Us</h5>
             <p className='small'>

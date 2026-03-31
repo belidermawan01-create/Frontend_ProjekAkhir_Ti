@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+/* .login-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  width: 70%;
+  max-width: 600px;
+} */
+
+
+.login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h3 {
+  text-align: center;
+  color: #555;
+}
+
+.login-box h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-box h1 span {
+  color: #0095FF
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #f1f3f5;
+  border-radius: 12px;
+  padding: 0 15px;
+  margin-bottom: 15px;
+  height: 50px;   
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  height: 100%;    
+  padding: 0;      
+  font-size: 14px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #f1f3f5 inset !important; 
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.eye {
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.options a {
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background: #1e88e5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #1565c0;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-text span {
+  color: #1e88e5;
+  cursor: pointer;
+}
+
+.icon {
+  color: #666;
+  font-size: 18px;
+}
+
+.eye {
+  color: #666;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.icon:hover,
+.eye:hover {
+  color: #1e88e5;
+}
