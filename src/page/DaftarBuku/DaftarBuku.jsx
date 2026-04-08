@@ -42,6 +42,7 @@ const DaftarBuku = () => {
       });
   }, []);
 
+  // buat anuin iklan biar ganti" setiap 3 detik
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length);
@@ -66,7 +67,7 @@ const DaftarBuku = () => {
         </div>
       </div>
 
-      {/* SEARCH & FILTER */}
+      {/* SEARCH & FILTET */}
       <Container className="search-filter-section">
         <div className="search-box-container">
           <InputGroup className="search-input-group">
@@ -75,7 +76,6 @@ const DaftarBuku = () => {
           </InputGroup>
         </div>
 
-        {/* 🔥 INI TETAP SAMA, TAPI DATA DARI API */}
         <div className="filter-scroll mt-4">
           {kategori.map((kat, index) => (
             <Button key={index} outline color="primary" className="btn-filter rounded-pill">
@@ -85,7 +85,6 @@ const DaftarBuku = () => {
         </div>
       </Container>
 
-      {/* SISANYA TIDAK DIUBAH */}
       <Container className="mt-5">
         <div className="d-flex justify-content-between align-items-center mb-4">
           <h4 className="fw-bold">Rekomendasi</h4>
