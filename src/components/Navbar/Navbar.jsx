@@ -45,7 +45,7 @@ const MyNavbar = () => {
             <NavItem className="position-relative">
               <NavLink
                 tag={RRNavLink}
-                to="/status"
+                to="/statuspeminjaman"
                 style={navLinkStyle}
                 className="px-3 d-flex align-items-center">
                   Status Peminjaman
@@ -66,7 +66,7 @@ const MyNavbar = () => {
             <NavItem>
               <NavLink
                 tag={RRNavLink}
-                to="/daftar-buku"
+                to="/daftarBuku"
                 style={navLinkStyle}
                 className="px-3">
                 Daftar Buku

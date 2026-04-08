@@ -1,0 +1,104 @@
+.daftar-buku-wrapper {
+    background-color: #f8faff;
+    min-height: 100vh;
+}
+
+.banner-section {
+    background-image: url('../../assets/MacBook.png');
+    
+}
+
+.banner-content {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.search-box-container {
+    background: #4a90e2;
+    padding: 40px;
+    border-radius: 60px;
+    box-shadow: 0 10px 30px rgba(74, 144, 226, 0.3);
+}
+
+.search-input-group {
+    background: white;
+    border-radius: 50px !important;
+    overflow: hidden;
+    padding: 5px 15px;
+}
+
+.search-input-group input {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Filter Buttons */
+.filter-scroll {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: none; /* Hilangkan scrollbar di Firefox */
+}
+
+.filter-scroll::-webkit-scrollbar {
+    display: none; /* Hilangkan scrollbar di Chrome/Safari */
+}
+
+.btn-filter {
+    white-space: nowrap;
+    padding: 5px 20px;
+    font-size: 14px;
+    background: white;
+    border-color: #eee;
+    color: #555;
+}
+
+/* Book Cards */
+.book-card {
+    transition: transform 0.3s;
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.x-small {
+    font-size: 11px;
+    text-align: left;
+}
+
+
+
+h6 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.banner-img {
+  transition: opacity 0.5s ease-in-out;
+}
+.btn-pinjam {
+  background-color: #0d6efd; /* biru */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 2px; 
+  border-radius: 20px;
+  cursor: pointer;
+  width: 50px;
+}
+
+button:hover {
+  background-color: #0b5ed7; /* biru lebih gelap pas hover */
+}

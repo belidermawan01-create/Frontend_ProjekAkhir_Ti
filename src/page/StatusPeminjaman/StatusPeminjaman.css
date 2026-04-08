@@ -1,0 +1,38 @@
+.main-wrapper {
+  background-image: url('../../assets/BG-Home.png');
+  min-height: 100vh;
+}
+
+.status-card {
+  border: none;
+  border-radius: 15px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.book-cover {
+  border-radius: 8px;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.btn-action {
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: #ff0022 !important; /* Merah sesuai gambar */
+  border: none;
+  font-size: 14px;
+}
+
+/* Warna khusus untuk status Terlambat (merah muda) */
+.btn-danger-light {
+  background-color: #ff8c8c !important;
+  color: white;
+}
+
+
+
+.action-icons span:hover {
+  color: #0081cc;
+}
